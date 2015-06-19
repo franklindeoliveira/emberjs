@@ -6,6 +6,15 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('favorites');
+});
+
+Router.map(function() {
+  this.route('favorite-view', {path: '/favorites/:id/view'});
+});
+
+Router.map(function() {
+  this.route('favorite-edit', {path: '/favorites/:id/edit'});
 });
 
 export default Router;
