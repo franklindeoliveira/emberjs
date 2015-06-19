@@ -17,4 +17,8 @@ Router.map(function() {
   this.route('favorite-edit', {path: '/favorites/:id/edit'});
 });
 
+Router.map(function() {
+  this.route('components');
+});
+
 export default Router;

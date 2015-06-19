@@ -1,5 +1,4 @@
-<h2>Favorites List</h2>
-
+<h2>Favorites </h2>
 <ul>
 {{#each item in model}}
   <li>{{item.name}} - [{{#link-to "favorite-view" item}}View{{/link-to}}] - [{{#link-to "favorite-edit" item}}Edit{{/link-to}}]</li>
