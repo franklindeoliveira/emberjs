@@ -1,3 +1,5 @@
+import Ember from 'ember';
+
 var posts = [{
     title: "Rails is omakase",
     body: "There are lots of à la carte software environments in this world."

@@ -21,4 +21,8 @@ Router.map(function() {
   this.route('components');
 });
 
+Router.map(function() {
+  this.route('helpers');
+});
+
 export default Router;
