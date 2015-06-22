@@ -1,6 +1,16 @@
-<h2 id="title">Welcome to Ember.js</h2>
-Menu:
-{{#link-to "index"}}Home{{/link-to}} | 
-{{#link-to "favorites"}}Favorites{{/link-to}} |
-{{#link-to "components"}}Components{{/link-to}}
-{{outlet}}
+<header>
+	<h1>Welcome to EmberJS</h1>
+	Menu:
+	{{#link-to "index"}}Home{{/link-to}} | 
+	{{#link-to "favorites"}}Favorites{{/link-to}} |
+	{{#link-to "components"}}Components{{/link-to}}
+</header>
+
+<div class="content">
+	<p>Content</p>
+	{{outlet}}
+</div>
+
+<footer>
+	Footer
+</footer>
